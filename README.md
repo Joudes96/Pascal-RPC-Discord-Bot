@@ -11,7 +11,7 @@ Pascal JSON RPC Documentation:
 Feel free to add more functions using the RPC documentation above
 
 # Installation
-The bot doesn't require having an account or private keys on the wallet, as long as the wallet is running and accepting rpc requests. 
+The bot doesn't require having an account or private keys in the wallet, as long as the wallet is running and accepting rpc requests. 
 
 Works on both linux and windows nodes.
 
@@ -43,6 +43,11 @@ pip install requests
 pip install discord
 pip install pycoingecko 
 ```
+
+## Add your discord bot token to last line at client.run() 
+This is needed for the bot to login to discord, token can be retrieved from discord developer portal:
+
+More Info [Discord Developer Portal](https://discord.com/developers/docs/intro)
 
 ## Running the bot
 For non interactive mode, use screen to run the bot then deattach
