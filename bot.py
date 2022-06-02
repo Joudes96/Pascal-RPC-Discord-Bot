@@ -198,4 +198,4 @@ async def blaise(ctx):
         'Download Blaise wallet for IOS: https://apps.apple.com/us/app/blaise-pascal-wallet/id1473011216')
 
 
-client.run("Insert your bot token here")
+client.run("Insert your discord bot token here")
